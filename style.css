@@ -1,0 +1,67 @@
+body {
+
+  background-image: linear-gradient(to right, #606c88, #3f4c6b);
+  color: white;
+  text-align: center;
+}
+.wrapper {
+  width: fit-content;
+  margin: auto;
+}
+.hint-div {
+  display: flex;
+  color: red;
+
+
+}
+.reset-btn,
+.notif-btn {
+  cursor: pointer;
+  border: inset;
+  color: tomato;
+}
+.reset-btn {
+  margin-left: auto;
+}
+.alpha {
+  width: 2rem;
+  height: 2rem;
+  background: tomato;
+  border: inset;
+  border-radius: 4px;
+  margin: 3px;
+  cursor: pointer;
+}
+.alpha:hover {
+  background-color: #e75480;
+  border: inset;
+}
+.disabled {
+  pointer-events: none;
+  background-color: darkgray;
+}
+
+.word-div {
+  display: inline-flex;
+}
+.word {
+  margin-right: 1.5rem;
+}
+
+.notif {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  transform: translate(50%, 50%);
+  background: #85fc6c;
+  width: 20rem;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: inset 5em 1em gold;
+}
+.blur {
+  filter: blur(2px);
+}
+.hidden {
+  display: none;
+}
